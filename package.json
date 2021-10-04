@@ -4,7 +4,7 @@
   "description": "This is RESTApi with the functionality of CRUD operations which are linked to a globally available cloud MonogoDb-Altlas. Tech stacks used are Node.js, Express.js, cloud MongoDb with Mongoose",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "vaibhavHere",
   "license": "MIT",

@@ -9,7 +9,7 @@ require('dotenv').config();
 require('./config/atlas');
 
 const app=express();
-const port=process.env.PORT;
+const port=process.env.PORT || 8000;
 
 app.listen(port,()=>console.log('Server is running at port',port))
 app.use(express.json());
